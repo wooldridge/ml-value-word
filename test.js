@@ -13,13 +13,13 @@ var q = marklogic.queryBuilder;
 
 var whereClause = [
     q.value(
-      'string',
-      'node.js',
-      q.termOptions('case-sensitive')
+      'foo',
+      'bar',
+      q.termOptions('exact')
     )
 ];
 
-console.dir(whereClause[0]['value-query']);
+console.dir(whereClause[0]);
 
 db.documents.query(
     q.where(whereClause)
