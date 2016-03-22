@@ -1,0 +1,10 @@
+{
+  "name": "ml-value-word",
+  "version": "0.0.1",
+  "description": "Test value and word searches in MarkLogic",
+  "author": "Mike Wooldridge",
+  "dependencies": {
+    "marklogic": "^1.0.4",
+    "request-promise": "^2.0.1"
+  }
+}
