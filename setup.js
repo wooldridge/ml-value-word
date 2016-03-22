@@ -113,8 +113,6 @@ function loadDocs() {
       console.log('Documents loaded: ' + count);
       if (docsFiles.length > 0) {
         loadDocs();
-      } else {
-        loadTriples();
       }
     })
     .catch(function (err) {
